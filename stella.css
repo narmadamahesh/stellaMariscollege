@@ -1,0 +1,144 @@
+
+
+ #content1{
+  background-color:lime;
+  height:310px;
+   width:250px;
+  padding:5px;
+float:left;
+ margin-left:20px;
+  margin-top:20px;
+ margin-bottom:10px;
+outline-style:double;
+outline-color:red;
+
+border-style:inset
+}
+#content2{
+  background-color:yellow;
+  height:280px;
+  width:300px;
+  padding:10px;
+ float:left;  
+ margin-right:10px;
+  margin-top:20px;
+  margin-bottom:10px; 
+ margin-left:20px;
+padding:20px;
+outline-style:double;
+outline-color:red;
+
+border-style:inset;
+}
+#content3{
+  background-color:dodgerblue;
+  height:310px;
+   width:300px;
+  padding:5px;
+float:left;
+ margin-left:20px;
+  margin-top:20px;
+ margin-bottom:10px;
+outline-style:double;
+outline-color:red;
+
+border-style:inset
+}
+#content4{
+  background-color:violet;
+  height:200px;
+   width:1000px;
+  padding:3px;
+float:left;
+ margin-right:10px;
+ margin-left:20px;
+  margin-top:20px;
+margin-bottom:40px; 
+outline-style:outset;
+outline-color:blue;
+
+border-style:inset
+}
+
+
+
+h1{
+font-style:normal;
+
+font-family:"Times New Roman",Times,serif;
+font-size:100px;
+text-shadow: 2px 2px red;
+
+border:10px Solid dodgerblue;
+border-style:groove;
+}
+#content1 p
+{
+margin-top:5px;
+padding:5px;
+ font-size:18px;
+ color:red;
+}
+#content2 p
+{
+margin-top:3px;
+padding:5px;
+ font-size:18px;
+
+ color:darkmagenta;
+}
+#content3 p
+{
+
+ margin-top:3px;
+padding:5px;
+ font-size:18px;
+ color:blue;
+}
+#content4 p
+{
+ margin-top:3px; 
+ padding:2px;
+ font-size:20px;
+ color:teal;
+}
+
+b{
+  color:black; 
+ font-size:25px;
+}
+fieldset{
+ margin-left:20px;
+ margin-top:10px;
+}
+#fsset{
+ color:yellow; 
+   height:300px;
+  width:800px;
+  padding:10px;
+  float:left;
+   margin-left:10px;
+  margin-top:20px;
+  margin-bottom:20px;
+ font-family:arail;
+
+  font-size:20px;
+}
+button{
+background-color:yellow;
+color:green;
+}
+button:hover{
+ color:yellow;
+font-size:20px;
+background-color:dodgerblue;
+}
+footer{
+ width:880px;
+margin:0px;
+background-color:green;
+
+  color:palegreen;
+ margin-top:90px;
+}
+ 

@@ -1,0 +1,29 @@
+body{
+background-color:rgba(27,31,34,0.85);
+}
+.maindiv{
+  width:70%;
+  height:400px;
+position:absolute;
+left:50%;
+top:60%;
+transform:translate(-50%,-50%);
+background-image:url(fresher.jpg);
+background-size:80% 80%;
+background-repeat:no-repeat;
+animation:slider 9s infinite linear;
+}
+
+@keyframes slider{
+ 0%{background-image:url(d2.jpeg);
+} 
+ 25%
+{background-image:url(d3.jpeg);
+}
+50%
+{background-image:url(d6.jpeg);
+}  
+75%
+{background-image:url(d5.jpeg);
+}
+

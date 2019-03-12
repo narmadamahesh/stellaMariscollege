@@ -1,0 +1,20 @@
+<html> 
+<head>
+<title>   Term Fees Payment </title>
+</head>
+<body>
+<style>
+</style>
+
+<h1> TermFees Payment </h1>
+<h2> Termfees payment for this year</h2>
+<ul>
+<li> you have to pay through  IO Bank/Netbanking </p>
+<li> you have to pay before the last date as we mentioned  otherwise extra money will be charged </p>
+ <li> Bank charges Rs.200 will be charged</li>
+</ul> 
+
+
+
+
+

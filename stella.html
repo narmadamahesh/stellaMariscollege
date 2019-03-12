@@ -1,0 +1,183 @@
+<html>
+<head>
+<title> Stella Maris College </title>
+</head>
+<link href="back.css"rel="stylesheet"/>
+<link href="stella.css"rel="stylesheet"/>
+<link href="list.css"rel="stylesheet"/>
+
+
+<style>
+
+*
+{
+ margin:0px;
+ padding:0px;
+
+}
+
+h2{
+  color:yellow;
+ background-color:green;
+}
+#fsset{
+  height:150px;
+  width:800px;
+  padding:30px;
+  float:left;
+  margin-left:20px;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+footer {  
+color:white;
+font-size:18px;
+font-family:Times New Roman;
+ background-color:red;
+ height:50px;
+ width:1100px;
+margin-top: 1000px;
+}
+
+fieldset{
+ border:5px Solid red;
+border-style:inset;
+}
+.container, .main{
+margin-top:100px;
+  margin-left:20px;
+  margin-top:50px;
+  margin-bottom:30px;
+
+}
+
+content1{
+width:100%;
+ animation:slide 10s infinite;
+}
+@keyframes slide {
+
+  0%
+{
+  left:20%;
+}
+50%
+{
+ right:50%;
+}
+100%{
+right:100%;
+}
+}
+
+
+
+</style>
+<body>
+<div id="container">
+<nav>
+<ul>
+  <li> <a href="stella.html"> Home </a> </li>
+  <li> <a href="attendance.html"> Attendance </a> </li>
+  <li> <a href="#"> fees Payment </a>
+ <ul> 
+    <li><a href="termfees.html"> Term Fees </a></li>
+    <li><a href="exam.html"> Exam Fees </a></li> 
+  </ul>
+</li>  
+ <li> <a href="#"> Registration </a>
+
+   <ul> 
+     <li><a href="ge.html"> GE ,AE registration </a></li>
+  
+  </ul>
+ </li>
+<li> <a href=""> exams </a>
+
+   <ul> 
+    <li><a href="ca.html"> CA exams </a></li>
+    <li><a href="sem.html">Semester Examination </a></li> 
+      <li><a href="ae.html"> Supplementary exam</a></li> 
+
+  </ul>
+
+ </li>
+<li> <a href="events.html"> Events </a>
+
+   <ul> 
+    <li><a href="events.html"> Our college events </a></li>
+    <li><a href="othercoll.html">Other college eventss </a></li> 
+  </ul>
+
+ </li>
+ <li> <a href="hist.html"> About </a> </li>
+  
+  </ul>
+
+</nav>
+</div>
+
+<div id="content1">
+<b>Student Training Program </b><br/> <br/>
+<p>  Students opting for games will have to go through the same for one year 
+ students for nss/ncc/Yrc or being a part of the college Games Team in the third year </p>
+</div>
+<div id="content2">
+<p> <b> Allied Elective </b><br/><br/> Undergraduate students have the option of choosing one Allied Elective course from a pool of courses offered by related departments </p>
+
+
+</div>
+<div id="content3">
+<p><b> General Elective</b><br/><br/>  students can choose courses across disciplines subject to eligiblity <br/>   A Student is not permitted to take more than two courses from anyone department</p>
+
+</div>
+<div id="content4">
+<h3> Independent Elective Course</h3><br/>
+ 
+<p> students may opt to do an ïndependent Elective Course " where the student  will study the  entire course on her own"</p>
+<p> Students can take a maximum of one Independent elective Course per semester from the parent department or from the other department </p>
+<p>there will be a three hour End semester Examination for all Independent Elective Courses .The marks and extra credits for these courses.however these marks will not be considered for the finalexam</p> 
+
+</div>
+<div id="fsset"> 
+<fieldset>
+ <legend>for further details</legend>
+ <label>Name:<br /> 
+<input  id="name"ctype="text" name="name"placeholder="enter your name" />
+</label><br /> <label>Dept.no:<br />
+ <input id="depno"type="text" name="dept.no" placeholder="enter your dept.no" /></label><br />
+ <label>E-mail:<br /> <input id="email"type="text" name="email"placeholder="enter you valid e-mail "/></label> <br/>
+ <label>Department:<br /> <input id="dep"type="text" name="email"placeholder="enter your department "onsubmit="return vali()"/></label> 
+
+<br/><br/><br/><input type="button" value="Submit"onsubmit="return vali()" /> 
+<br/>
+</fieldset>
+</div> 
+<script>
+function vali()
+{
+  document.get.Element.ById("name").value;
+document.get.Element.ById("depno").value;
+document.get.Element.ById("email").value;
+document.get.Element.ById("dep").value;
+if(name!==""&&depno!=""&&email!==""&&dep!=="")
+{
+     alert("allfields  are required");
+     return false;
+}
+
+{
+  alert("Thank you ");
+
+}
+else 
+</script>
+
+<center><footer> 
+@copyright2019-2020,STELLA MARIS COLLEGE (Autonomous).All rights reserved .<br/>The application is compatible with Internet Explorer  versions(8 and Above),Mozilla Firefox Latest Version 
+</footer>
+</center>
+</div> 
+
+</body>
+</html>

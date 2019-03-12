@@ -1,0 +1,184 @@
+<html>
+<head>
+<title> PAY PAGE </title>
+</head>
+<link href="back.css"rel="stylesheet"/>
+<style>
+  input{
+background-color:transparent;
+   
+ border:1px solid orange;
+ border-radius:4px;
+ text-align:left;
+color:white;
+}
+ h1{
+ font-family:cooper;
+color:#F07334;
+}
+
+ .container{
+margin-top:60px;
+font-family:sans-serif;
+border:2px solid orange;
+width:45%;
+ text-align:center;
+padding-top:30px;
+margin:auto;
+border-radius:12px;
+background-color:white;
+padding-bottom:10px;
+-webkit-box-shadow:3px 0px 10px 0px black;
+-moz-box-shadow:3px 0px 10px 0px black;
+box-shadow:3px 0px 10px 0px black;
+translate:(-50%,-50%);
+background-color:transparent;
+
+}
+.submit{
+background-color:transparent;
+color:black;
+
+ border:1px solid orange;
+border-radius:30px;
+font-family:sans-serif;
+font-size:20px;
+width:120px;
+transition:0.9s ease;
+text-align:center;
+}
+.submit:hover{
+ background-color:#f07334;
+color:white;
+font-size:20px;
+border: 1px solid black;
+font-family:sans-serif;
+ font-size:12px;
+}
+p{
+ color:white;
+font-size:30px;
+} 
+
+
+button a{
+ text-decoration:none;
+font-size:26px;
+}
+
+
+  
+</style>
+<body>
+
+<form>
+<div class="container">
+<p>* fields are required </p>
+<h1> Stella Maris College Fees Payment</h1>
+<label>*Name</label>
+<input id="name"type="text"placeholder="enter Your Name "/><br/><br/>
+<label> *Department.No</label>
+<input id="dno"type="text"placeholder="enter Your Department.No"/><br><br/>
+<label>* Father's Name</label>
+<input id="father" type="text"placeholder="enter Your Father's Name "/><br/><br/>
+ * Choose a Payment Method :
+<select>
+<option> Net Banking </option>
+<option> Credit Card  </option>
+<option> Debit card  </option>
+<option> GateWay Payment </opti on>
+</select>
+<br/><br/>
+* Validity of the card :Year<select> <option> 20</option>
+<option> 21</option>
+<option> 22 </option>
+<option> 23 </option>
+<option> 22 </option>
+</select>
+Month <select> <option> Jan</option>
+<option> Feb</option>
+<option> Mar</option>
+<option> Apr </option>
+<option> May </option>
+
+<option> Jun </option>
+<option> Jul </option>
+<option> Aug </option>
+<option> Sep </option>
+<option> Oct </option>
+<option> Nov </option>
+<option> Dec </option>
+</select>
+Month <select> 
+<option> 1 </option>
+<option> 2 </option>
+<option> 3 </option>
+<option> 4 </option>
+<option> 5 </option>
+<option> 6 </option>
+<option> 7 </option>
+<option> 8</option>
+
+<option> 9</option>
+<option> 10</option>
+<option> 11</option>
+<option> 12 </option>
+<option> 13 </option>
+
+<option> 14</option>
+<option> 15 </option>
+<option> 16 </option>
+<option> 17 </option>
+<option> 18 </option>
+<option> 19 </option>
+<option> 20 </option>
+<option> 21 </option>
+<option> 22 </option>
+<option> 23 </option>
+<option> 24 </option>
+<option> 25 </option>
+<option> 26 </option>
+<option> 27 </option>
+<option> 28 </option>
+<option> 29 </option>
+<option> 30</option>
+
+</select>
+<br/><br/><br/>
+<label>Credit Number:</label>
+<input id="credit"type="text"/>
+<br/><br/><br/>
+<input type="submit" class="sub"value="pay"onclick="return vali()" /> 
+<br/>
+<button> <a href="termfees.html"/>cancel <a/> </button>
+
+</div>
+
+</form>
+<script>
+function vali()
+{
+  var name=document.getElementById("name").value;
+   var dno=document.getElementById("dno").value;
+  var father=document.getElementById("father").value;
+  var credit=document.getElementById("credit").value;
+     if(name==" "&&dno==" "&&father==" "&&credit==" ")
+  {
+         alert("Please wait the transaction will done Quickly ");
+        
+    }
+ else 
+    {
+  
+   alert(" All fields are required");
+    
+   }
+
+
+}
+
+</script>
+
+</body>
+
+</html>

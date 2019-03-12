@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+<title> MY BACKGROUND </title>
+</head>
+<style>
+body{
+margin:0;
+padding:0;
+background:#42E6f4;
+}
+button{
+position:absolute;
+top:10%;
+left:10%;
+transfrom:translate(-50%,-50%);
+padding:10px;
+background:#f441dg;
+font-size:18px;
+cursor:pointer;
+}
+
+
+</style>
+<body> 
+<button> USE ME </button>
+<script type="text/javascript">
+ var color=["#f441dc","#ff0000","00ff00","#ffff00","#f00Bfff","#0000ff","#8B008B","#ff1493"];
+
+var i=0;
+ document.queryselector("button").addEventListener("click",function(){
+i=1<color.length?  ++i :0;
+ document.queryselector("body").style.background=color[i];
+}
+}
+</script>
+</body>
+</html>
